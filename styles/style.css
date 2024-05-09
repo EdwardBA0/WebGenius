@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../img/fondo_main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: #000000;
+  padding: 5px;
+  min-height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+header h1 {
+  color: #fff;
+  text-align: left;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.section {
+  padding: 50px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+  font-size: 33px;
+  color: #fff;
+  text-align: center;
+}
+.section h2 {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section h3 {
+  font-size: 20px;
+  color: chartreuse;
+  text-align: center;
+}
+.section h4 {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 27%;
+  padding-right: 27%;
+}
+.section h5 {
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section h6 {
+  font-size: 30px;
+}
+
+.section li {
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section li1 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.section p {
+  color: #ffffff;
+  font-size: 33px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section p1 {
+  color: #ffffff;
+  font-size: 33px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section p2 {
+  text-align: justify;
+  color: #ffffff;
+  width: 20%;
+}
+
+.section p3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  max-width: 39%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  display: block;
+}
+.section p4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  max-width: 52%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  display: block;
+}
+
+.section p5 {
+  font-size: 20px;
+  color: chartreuse;
+  text-align: center;
+}
+.section ul {
+  list-style: none;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skill-item img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+.skill-item img:hover {
+  transform: scale(1.2);
+}
+
+.copa img {
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  max-width: 20px;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.service-details {
+  text-align: center;
+}
+
+#mi-nombre {
+  transition: color 0.3s ease;
+}
+
+#mi-nombre:hover {
+  color: rgb(9, 175, 73);
+}
+
+.menu-link {
+  transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+  color: rgb(9, 175, 73);
+}
+
+#mi-foto {
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+#mi-foto:hover {
+  transform: scale(1.1);
+}
+.whatsapp-img {
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-img:hover {
+  transform: scale(1.2);
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-method {
+  text-align: center;
+  margin: 10px;
+  flex-grow: 1;
+  max-width: 150px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-method:hover {
+  transform: scale(1.1);
+}
+
+.contact-method a {
+  display: block;
+  text-decoration: none;
+}
+
+.contact-method img {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-method span {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.whatsapp span,
+.linkedin span {
+  margin-top: 15px;
+  display: block;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.color-changing-title {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 60%;
+}
+
+.color-changing-title span {
+  transition: color 0.3s ease;
+}
+
+.color-changing-title:hover span:nth-child(1) {
+  color: red;
+}
+
+.color-changing-title:hover span:nth-child(2) {
+  color: green;
+}
+
+.color-changing-title:hover span:nth-child(3) {
+  color: blue;
+}
+.color-changing-title:hover span:nth-child(4) {
+  color: rgb(173, 6, 84);
+}
+.color-changing-title:hover span:nth-child(5) {
+  color: rgb(88, 5, 155);
+}
+.color-changing-title:hover span:nth-child(6) {
+  color: rgb(167, 10, 153);
+}
+.color-changing-title:hover span:nth-child(7) {
+  color: rgb(182, 102, 11);
+}
+.color-changing-title:hover span:nth-child(8) {
+  color: rgb(4, 182, 226);
+}
+.color-changing-title:hover span:nth-child(9) {
+  color: rgba(0, 248, 0, 0.568);
+}
+
+.logo {
+  align-items: center;
+  height: auto;
+}
+.servicios-index1,
+.servicios-index2,
+.servicios-index3:hover {
+  transition: transform 0.3s ease;
+}
+
+.servicios-index1:hover,
+.servicios-index2:hover,
+.servicios-index3:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-title {
+    margin-bottom: 2%;
+  }
+
+  .logo-title img {
+    margin-right: 1px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: x-large;
+  }
+
+  nav {
+    margin-top: 8px;
+    font-size: 11px;
+  }
+
+  .container h1 {
+    margin: 0;
+    font-size: larger;
+  }
+
+  .container h3 {
+    font-size: xx-small;
+  }
+
+  .container h4 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: small;
+  }
+  .container h5 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 80%;
+  }
+  .pagina-web-index {
+    width: 200px;
+  }
+  .servicios-index1 {
+    width: 200px;
+  }
+  .servicios-index2 {
+    width: 150px;
+  }
+  .foto-edward {
+    width: 215px;
+  }
+  .section p3 {
+    font-size: 15px;
+    max-width: 90%;
+  }
+  .section p4 {
+    font-size: 15px;
+    max-width: 90%;
+  }
+  .section li {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: medium;
+  }
+  .section li1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1100px) {
+  .section p3 {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .container h4 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .section p4 {
+    max-width: 90%;
+  }
+}
